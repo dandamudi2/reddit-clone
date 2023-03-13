@@ -5,6 +5,8 @@ import { extendTheme } from "@chakra-ui/react";
 import { Button } from './button';
 
 export const  theme = extendTheme({
+ initialColorMode: 'dark',
+ useSystemColorMode: false,
   colors: {
     brand: {
       100: "#ff3c00",
